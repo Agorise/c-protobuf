@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -O0 -g3 -Wall
+CFLAGS = -O0 -g3 -Wall -std=c99
 LFLAGS = 
 DEPS = protobuf.h
 OBJS = protobuf.o varint.o
